@@ -1,0 +1,14 @@
+ALGORITHM testAlgo
+VAR
+    nvoyel:INTEGER;
+    nmot:INTEGER;
+    ncarac:INTEGER;
+    phrase:STRING;
+BEGIN
+    write("veillez entrer une phrase");
+    read(phrase);
+    ncarac:=phrase.length;
+    FOR i FROM 0 TO phrase.length-1 STEP 1  DO
+        
+    END_FOR
+END
